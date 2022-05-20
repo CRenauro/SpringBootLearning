@@ -1,10 +1,9 @@
 package com.insurance.insurance.service;
 
-import com.insurance.insurance.dto.UserRegistrationDto;
+import com.insurance.insurance.web.dto.UserRegistrationDto;
 import com.insurance.insurance.model.Role;
 import com.insurance.insurance.model.User;
 import com.insurance.insurance.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.insurance.insurance.dto;
+package com.insurance.insurance.web.dto;
 
 public class UserRegistrationDto {
 
@@ -10,12 +10,19 @@ public class UserRegistrationDto {
     private String email;
     private String password;
 
+    public UserRegistrationDto() {
+
+    }
+
     public UserRegistrationDto(String firstName, String lastName, String email, String password) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.password = password;
     }
+
+
+
 
     public String getFirstName() {
         return firstName;
